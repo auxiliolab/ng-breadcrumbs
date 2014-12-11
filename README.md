@@ -78,6 +78,15 @@ To add dynamic route labels, create an options object on the breadcrumbs service
 breadcrumbs.options = { 'Stock Detail': $routeParams.stock + ' Details' };
 ```
 
+#### Adding arbitrary options to a route
+
+To add extra configuration to your route, simply define 'options' in your route definition, i.e:
+
+// Will be available as breadcrumbs.get()[index].options.hidden
+```javascript
+        .when('/', { templateUrl: 'assets/template/home.html', label: 'Home', options: {hidden: false})
+```
+
 I hope you find this useful!
 
 &#9824;&nbsp; [Ian](http://ianvonwalter.com)
