@@ -42,11 +42,13 @@
                 pathObj = {},
                 path = '',
                 originalPath = '',
-                param;
+                param,
+                options;
 
             if ($route && $route.current && $route.current.originalPath) {
               this.breadcrumbs = [];
               params = $route.current.params;
+              options = $route.current.options || {};
               pathElements = $route.current.originalPath.trim().split('/');
 
               // Necessary to get rid of of duplicate empty string on root path
@@ -83,7 +85,8 @@
                     path: path,
                     originalPath: originalPath,
                     label: routes[originalPath].label || param,
-                    param: param
+                    param: param,
+                    options: options
                   });
                 }
               });

@@ -18,7 +18,8 @@ define(
         $route = _$route_;
         $route.current = {
           params: { investor: 2, position: 2 },
-          originalPath: '/investor/:investor/position/:position'
+          originalPath: '/investor/:investor/position/:position',
+          options: {show: true}
         };
       }));
 
@@ -35,6 +36,13 @@ define(
           expect(crumbs[0].label).to.equal('Home');
           expect(crumbs[1].label).to.equal('Investor');
           expect(crumbs[2].label).to.equal('Investor Position');
+        });
+      });
+
+      describe('#get()', function() {
+        it('should allow abitrary options to be configured', function() {
+          var crumbs = breadcrumbs.get();
+          expect(crumbs[0].options.show).to.equal(true);
         });
       });
 
