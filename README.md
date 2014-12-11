@@ -82,9 +82,9 @@ breadcrumbs.options = { 'Stock Detail': $routeParams.stock + ' Details' };
 
 To add extra configuration to your route, simply define 'options' in your route definition, i.e:
 
-// Will be available as breadcrumbs.get()[index].options.hidden
 ```javascript
-        .when('/', { templateUrl: 'assets/template/home.html', label: 'Home', options: {hidden: false})
+    // Will be available as breadcrumbs.get()[index].options.hidden
+    .when('/', { templateUrl: 'assets/template/home.html', label: 'Home', options: {hidden: false})
 ```
 
 I hope you find this useful!
