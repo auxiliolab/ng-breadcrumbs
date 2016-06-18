@@ -14,7 +14,7 @@
     "Antony Jones / Desirable Objects (@antony)"
   ],
   "license": "MIT",
-  "homepage": "http://ianwalter.github.io/ng-breadcrumbs/",
+  "homepage": "http://desirable-objects.github.io/ng-breadcrumbs/",
   "main": [
     "dist/ng-breadcrumbs.min.js",
     "README.md"

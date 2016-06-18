@@ -1,9 +1,3 @@
-/**
- * ng-breadcrumb.js - v0.4.1 - A better AngularJS service to help with
- * breadcrumb-style navigation between views.
- *
- * @author Ian Kennington Walter (http://ianvonwalter.com)
- */
 (function(angular) {
   'use strict';
 
