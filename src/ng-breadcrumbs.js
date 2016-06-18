@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('ng-breadcrumbs', [])
+    .module('ngBreadcrumbs', [])
     .factory('breadcrumbs', [
       '$rootScope',
       '$location',
