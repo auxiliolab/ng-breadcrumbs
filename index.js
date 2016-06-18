@@ -1,2 +1,2 @@
-require('./angular-resource');
-module.exports = 'ngResource';
+require('./src/ng-breadcrumbs');
+module.exports = 'ngBreadcrumbs';
