@@ -1,7 +1,7 @@
 {
-  "name": "ng-breadcrumbs",
+  "name": "angular-breadcrumbs",
   "version": "0.4.1",
-  "description": "A better AngularJS service to help with breadcrumb-style navigation between views",
+  "description": "AngularJS Breadcrumbs for ngRoute",
   "keywords": [
     "ng-breadcrumbs",
     "angular",
@@ -11,7 +11,7 @@
     "route"
   ],
   "authors": [
-    "Ian Kennington Walter (http://ianvonwalter.com)"
+    "Antony Jones / Desirable Objects (@antony)"
   ],
   "license": "MIT",
   "homepage": "http://ianwalter.github.io/ng-breadcrumbs/",

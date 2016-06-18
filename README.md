@@ -1,25 +1,33 @@
-# [ng-breadcrumbs](http://ianwalter.github.io/ng-breadcrumbs/)
-*A better AngularJS service to help with breadcrumb-style navigation between views.*
-
-[![Code Climate](https://codeclimate.com/github/ianwalter/ng-breadcrumbs.png)](https://codeclimate.com/github/ianwalter/ng-breadcrumbs)
-
-[ ![Codeship Status for ianwalter/ng-breadcrumbs](https://codeship.io/projects/31427860-2e0a-0132-95a9-0275b2f5d99e/status)](https://codeship.io/projects/39305)
+# [ng-breadcrumbs](http://desirable-objects.github.io/ng-breadcrumbs/)
+*AngularJS Breadcrumbs for ngRoute*
 
 This project was built using [ng-boilerplate](https://github.com/ianwalter/ng-boilerplate)!
+This project was forked from the abandoned ng-breadcrumbs module by [Ian Von Walter](http://ianvonwalter.com)
+It was then maintained briefly by a number of contributors including [shoshi](https://github.com/shoshi/angular-breadcrumbs)
+It has been given a couple of new features.
+
+Works with Angular 1.5.x!
 
 #### Step 1: Install ng-breadcrumbs
+
+Install using npm (preferred):
+
+```
+npm install --save angular-breadcrumbs
+require('angular-breadcrumbs') // For webpack
+```
 
 Install using Bower:
 
 ```
-bower install ng-breadcrumbs --save
+bower install angular-breadcrumbs --save
 ```
 
 Include ng-breadcrumbs.min.js in your app.
 
 #### Step 2: Set up routing
 
-In order to use breadcrumbs you'll need to use configure your app to use Angular's routeProvider. You'll also need to 
+In order to use breadcrumbs you'll need to use configure your app to use Angular's routeProvider. You'll also need to
 load the ng-breadcrumbs module. You can then set a label for each route (breadcrumb) within the route options.
 
 ```javascript
@@ -86,7 +94,3 @@ To add extra configuration to your route, simply define 'options' in your route 
 // Will be available as breadcrumbs.get()[index].options.hidden
 .when('/', { templateUrl: 'assets/template/home.html', label: 'Home', options: {hidden: false})
 ```
-
-I hope you find this useful!
-
-&#9824;&nbsp; [Ian](http://ianvonwalter.com)
