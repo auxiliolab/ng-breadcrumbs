@@ -16,7 +16,7 @@
   "license": "MIT",
   "homepage": "http://desirable-objects.github.io/ng-breadcrumbs/",
   "main": [
-    "dist/ng-breadcrumbs.min.js",
+    "dist/ng-breadcrumbs.js",
     "README.md"
   ],
   "ignore": [
