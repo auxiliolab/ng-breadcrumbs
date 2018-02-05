@@ -1,6 +1,6 @@
 {
   "name": "angular-breadcrumbs",
-  "version": "0.5.0",
+  "version": "0.5.3",
   "description": "AngularJS Breadcrumbs for ngRoute",
   "keywords": [
     "ng-breadcrumbs",
